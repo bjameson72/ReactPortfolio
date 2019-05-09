@@ -1,0 +1,49 @@
+.homePage {
+  background: url("https://cdn.wallpapersafari.com/8/10/5vHeDY.jpg");
+  height: 20vh;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.linkedButton {
+  height: 4rem;
+  width: 8rem;
+  border-radius: 1rem;
+  outline: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: transparent;
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+.linkedButton:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.title {
+  color: whitesmoke;
+  text-underline-position: under;
+  outline: none;
+  font-size: 3rem;
+  margin-top: 10.5rem;
+  margin-bottom: 2rem;
+}

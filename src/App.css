@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Noto+Sans+JP:500");
+
 .App {
   text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .App-logo {

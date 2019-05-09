@@ -1,0 +1,28 @@
+.navWrapper {
+  background-color: rgba(5, 5, 5, 0.7);
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-items: baseline;
+}
+
+.navButtons {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
+.liButton {
+  padding-left: 1rem;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+.icon {
+  width: 100%;
+  color: white;
+}
