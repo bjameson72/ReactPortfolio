@@ -7,7 +7,24 @@ class Projects extends React.Component {
     return (
       <div className="projectWrapper">
         <NavBar />
-        Please dont!
+        <ul>
+          <a
+            className="atag"
+            href="http://www.aura.community"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li className="project">Project Aura</li>
+          </a>
+          <a
+            className="atag"
+            href="http://www.brockjameson.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li className="project">Cryptotracker</li>
+          </a>
+        </ul>
       </div>
     );
   }

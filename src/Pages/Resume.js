@@ -7,7 +7,6 @@ class Resume extends React.Component {
     return (
       <div className="resumeWrapper">
         <NavBar />
-        shut up
       </div>
     );
   }

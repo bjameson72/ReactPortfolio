@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
 .homePage {
   background: url("https://cdn.wallpapersafari.com/8/10/5vHeDY.jpg");
   height: 20vh;
@@ -8,7 +9,7 @@
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.2);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -22,7 +23,7 @@
 
 .linkedButton {
   height: 4rem;
-  width: 8rem;
+  width: 12rem;
   border-radius: 1rem;
   outline: none;
   padding-left: 1rem;
@@ -31,19 +32,42 @@
   margin-right: 2rem;
   background-color: transparent;
   font-size: 1rem;
-  color: whitesmoke;
+  color: #2d2b2b;
+  font-family: "Permanent Marker", cursive;
+  border: solid;
 }
 
 .linkedButton:hover {
-  color: lightgray;
+  color: #ccc1c1;
   cursor: pointer;
 }
 
 .title {
-  color: whitesmoke;
+  color: #2d2b2b;
   text-underline-position: under;
   outline: none;
-  font-size: 3rem;
-  margin-top: 10.5rem;
-  margin-bottom: 2rem;
+  font-size: 3.5rem;
+  margin-top: 10rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  text-shadow: #ccc1c1 1px 1px 3px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.icon {
+  height: 2rem;
+  width: 2rem;
+  margin-top: 8rem;
+  padding-left: 0.25rem;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
 }
