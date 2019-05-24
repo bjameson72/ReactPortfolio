@@ -67,13 +67,53 @@
   border-style: solid;
   border-width: 0.1rem;
   border-radius: 5px;
+}
+
+.grid {
   display: grid;
-  grid-area: " left right ";
+  grid-template-areas: " left right ";
   grid-template-columns: 65% 35%;
+}
+
+.grid > .content {
+  grid-area: left;
+}
+
+.grid > .pictures {
+  grid-area: right;
+}
+
+.paragraphContent {
+  text-align: justify;
+  margin-top: 0rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 1.7rem;
 }
 
 .tabContainer {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
+}
+
+img {
+  width: 80%;
+  border-radius: 5px;
+}
+
+.pictures {
+  margin: auto;
+}
+
+.farragut {
+  border-radius: 100%;
+  width: 70%;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+}
+
+workPictures {
+  display: flex;
+  flex-direction: column;
 }
