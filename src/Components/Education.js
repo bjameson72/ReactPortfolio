@@ -20,7 +20,7 @@ const Education = () => (
         project that I was a part of with 3 others where we made a
         cryptotracking application. The web application allowed a user to sign
         in, choose which cryptocurrency markets the user wants to monitor, and
-        see live feed of information about those markets.
+        see live feed of information about those markets. Brock
       </p>
     </article>
     <section className="pictures">
