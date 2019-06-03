@@ -1,26 +1,19 @@
-// In your gatsby-config.js
 module.exports = {
+  // previous setup
   plugins: [
-    // You can have multiple instances of this plugin
-    // to read source nodes from different locations on your
-    // filesystem.
-    //
-    // The following sets up the Jekyll pattern of having a
-    // "pages" directory for Markdown files and a "data" directory
-    // for `.json`, `.yaml`, `.csv`.
+    "gatsby-plugin-catch-links",
+    "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/Pages/`
+        path: `${__dirname}/src/`,
+        name: "pages"
       }
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-transformer-remark",
       options: {
-        name: `data`,
-        path: `${__dirname}/src/Data/`,
-        ignore: [`**/\.*`] // ignore files starting with a dot
+        plugins: [] // just in case those previously mentioned remark plugins sound cool :)
       }
     }
   ]

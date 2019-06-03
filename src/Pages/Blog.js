@@ -1,16 +1,44 @@
 import React from "react";
-import NavBar from "../Components/NavBar";
+import { Link, graphql } from "gatsby";
 import "../Styles/Blog.css";
+import NavBar from "../Components/NavBar";
 
-class Blog extends React.Component {
-  render() {
-    return (
-      <div className="blogWrapper">
-        <NavBar />
-        No Dude!
-      </div>
-    );
-  }
-}
+const Blog = ({ data }) => (
+  <>
+    <NavBar />
+    {/* TODO: Change the head title in the future... */}
+    {data.allMarkdownRemark.edges.map(({ node }) => {
+      console.log(node);
+      return (
+        <article key={node.id} className="blog-post-item-container">
+          {/* TODO: Make this an image container */}
+
+          <Link to={node.fields.slug} className="blog-post-item-link">
+            {node.frontmatter.title}
+          </Link>
+        </article>
+      );
+    })}
+  </>
+);
 
 export default Blog;
+
+export const query = graphql`
+  query IndexQuery {
+    allMarkdownRemark {
+      totalCount
+      edges {
+        node {
+          frontmatter {
+            title
+          }
+          id
+          fields {
+            slug
+          }
+        }
+      }
+    }
+  }
+`;

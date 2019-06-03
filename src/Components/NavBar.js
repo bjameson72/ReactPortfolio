@@ -1,6 +1,6 @@
 import React from "react";
-import { Switch, Route, NavLink } from "react-router-dom";
-// import { Link } from "gatsby";
+// import { Switch, Route, NavLink } from "react-router-dom";
+import { Link } from "gatsby";
 import Resume from "../assets/resume/Brock_Resume.pdf";
 import "../Styles/NavBar.css";
 
@@ -8,22 +8,22 @@ class NavBar extends React.Component {
   render() {
     return (
       <nav className="navWrapper">
-        <NavLink to="/">
+        <Link to="/">
           <h1 className="logo">Brock Jameson</h1>
-        </NavLink>
+        </Link>
         <ul className="navButtons">
-          <NavLink to="/about">
+          <Link to="/About">
             <li className="liButton">About</li>
-          </NavLink>
+          </Link>
           {/* <a href={Resume} target="_blank" rel="noopener noreferrer"> */}
           <li className="liButton">Resume</li>
           {/* </a> */}
-          <NavLink to="/projects">
+          <Link to="/Projects">
             <li className="liButton">Projects</li>
-          </NavLink>
-          <NavLink to="/blog">
+          </Link>
+          <Link to="/Blog">
             <li className="liButton">Blog</li>
-          </NavLink>
+          </Link>
         </ul>
       </nav>
     );

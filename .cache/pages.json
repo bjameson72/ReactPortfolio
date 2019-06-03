@@ -1,5 +1,10 @@
 [
     {
+        "componentChunkName": "component---src-pages-index-js",
+        "jsonName": "index",
+        "path": "/"
+    },
+    {
         "componentChunkName": "component---src-pages-about-js",
         "jsonName": "about-85a",
         "path": "/About/"
@@ -8,11 +13,6 @@
         "componentChunkName": "component---src-pages-blog-js",
         "jsonName": "blog-4a8",
         "path": "/Blog/"
-    },
-    {
-        "componentChunkName": "component---src-pages-home-js",
-        "jsonName": "home-6c4",
-        "path": "/Home/"
     },
     {
         "componentChunkName": "component---src-pages-projects-js",
@@ -28,5 +28,15 @@
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-posts-js",
+        "jsonName": "posts-blog-1-7d8",
+        "path": "/posts/blog1/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-posts-js",
+        "jsonName": "posts-init-d6e",
+        "path": "/posts/init/"
     }
 ]

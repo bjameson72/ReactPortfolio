@@ -1,2 +1,1 @@
-import "./src/styles/main.scss";
-import "@fortawesome/fontawesome-free/css/all.css";
+import "./src/Styles/Home.css";
