@@ -4,7 +4,7 @@ import "../Styles/Blog.css";
 import NavBar from "../Components/NavBar";
 
 const Blog = ({ data }) => (
-  <>
+  <div className="blogWrapper">
     <NavBar />
     {/* TODO: Change the head title in the future... */}
     {data.allMarkdownRemark.edges.map(({ node }) => {
@@ -14,12 +14,12 @@ const Blog = ({ data }) => (
           {/* TODO: Make this an image container */}
 
           <Link to={node.fields.slug} className="blog-post-item-link">
-            {node.frontmatter.title}
+            <div className="blogpostContainer">{node.frontmatter.title}</div>
           </Link>
         </article>
       );
     })}
-  </>
+  </div>
 );
 
 export default Blog;

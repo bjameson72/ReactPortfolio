@@ -1,13 +1,19 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import BlogContainer from "../layouts/BlogContainer";
 
 const BlogPost = ({ data }) => {
   const post = data.markdownRemark;
   return (
-    <>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
-    </>
+    <div className="blogWrapper">
+      <BlogContainer>
+        <div
+          className="blogpost"
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
+      </BlogContainer>
+    </div>
   );
 };
 

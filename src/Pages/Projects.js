@@ -7,7 +7,7 @@ class Projects extends React.Component {
     return (
       <div className="projectWrapper">
         <NavBar />
-        <ul>
+        <ul className="projectsContainer">
           <a
             className="atag"
             href="http://www.aura.community"

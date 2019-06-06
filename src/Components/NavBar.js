@@ -15,9 +15,9 @@ class NavBar extends React.Component {
           <Link to="/About">
             <li className="liButton">About</li>
           </Link>
-          {/* <a href={Resume} target="_blank" rel="noopener noreferrer"> */}
-          <li className="liButton">Resume</li>
-          {/* </a> */}
+          <a href={Resume} target="_blank" rel="noopener noreferrer">
+            <li className="liButton">Resume</li>
+          </a>
           <Link to="/Projects">
             <li className="liButton">Projects</li>
           </Link>

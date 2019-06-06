@@ -7,10 +7,17 @@
   list-style: none;
   display: inline-flex;
   padding: 8rem;
-  background-color: #2d2b2b;
-  margin: 2rem;
+  background-color: rgba(5, 5, 5, 0.7);
+  margin-top: 1rem;
   color: #ccc1c1;
   outline: none;
+  border-radius: 5px;
+}
+
+.projectsContainer {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .atag {

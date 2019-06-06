@@ -36,6 +36,16 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-posts-js",
+        "jsonName": "posts-blog-2-82b",
+        "path": "/posts/blog2/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-posts-js",
+        "jsonName": "posts-blog-3-d68",
+        "path": "/posts/blog3/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-posts-js",
         "jsonName": "posts-init-d6e",
         "path": "/posts/init/"
     }

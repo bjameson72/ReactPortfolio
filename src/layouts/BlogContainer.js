@@ -1,11 +1,12 @@
 import React from "react";
+import NavBar from "../Components/NavBar";
+import "../Styles/Blog.css";
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ children }) => {
   return (
     <>
-      <NavBar>
-        <a>yo</a>
-      </NavBar>
+      <NavBar />
+      <article>{children}</article>
     </>
   );
 };
