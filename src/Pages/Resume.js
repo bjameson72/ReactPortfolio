@@ -13,7 +13,7 @@ class Resume extends React.Component {
             className="resume"
             title="resume"
             src="https://docs.google.com/viewer?srcid=1VVX1uoXyydvPXGAeQg7L96T5RU6NyiUz&pid=explorer&efh=false&a=v&chrome=false&embedded=true"
-            frameborder="0"
+            frameBorder="0"
           ></iframe>
         </div>
       </div>
