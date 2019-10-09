@@ -1,7 +1,6 @@
 import React from "react";
 // import { Switch, Route, NavLink } from "react-router-dom";
 import { Link } from "gatsby";
-import Resume from "../assets/resume/Brock_Resume.pdf";
 import "../Styles/NavBar.css";
 
 class NavBar extends React.Component {

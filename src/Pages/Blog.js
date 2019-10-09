@@ -8,7 +8,7 @@ const Blog = ({ data }) => (
     <NavBar />
     {/* TODO: Change the head title in the future... */}
     {data.allMarkdownRemark.edges.map(({ node }) => {
-      console.log(node);
+      // console.log(node);
       return (
         <article key={node.id} className="blog-post-item-container">
           {/* TODO: Make this an image container */}

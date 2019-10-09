@@ -1,7 +1,7 @@
 import React from "react";
-import About from "./About";
-import Blog from "./Blog";
-import Projects from "./Projects";
+// import About from "./About";
+// import Blog from "./Blog";
+// import Projects from "./Projects";
 // import { Switch, Route, NavLink } from "react-router-dom";
 import { Link } from "gatsby";
 import Github from "../assets/icons/github.svg";
