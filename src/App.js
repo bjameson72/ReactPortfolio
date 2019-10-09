@@ -4,7 +4,7 @@ import Resume from "./Pages/Resume";
 import Blog from "./Pages/Blog";
 import Projects from "./Pages/Projects";
 import Home from "./Pages/Home";
-import { BrowserRouter, Switch, Route, NavLink } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
 
 function App() {
