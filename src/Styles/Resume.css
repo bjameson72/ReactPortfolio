@@ -1,4 +1,12 @@
 .resumeWrapper {
   background-color: lightgray;
+}
+
+.page {
+  height: 100vh;
+}
+
+.resume {
+  width: 98vw;
   height: 100vh;
 }

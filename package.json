@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "browsers": "^1.0.1",
     "gatsby": "^2.7.1",
     "gatsby-plugin-catch-links": "^2.0.15",
+    "gatsby-plugin-postcss": "^2.1.11",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-source-filesystem": "^2.0.38",
     "gatsby-transformer-remark": "^2.3.12",
-    "postcss": "^7.0.16",
+    "postcss": "^7.0.17",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
@@ -22,5 +25,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

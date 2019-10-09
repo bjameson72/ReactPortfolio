@@ -10,11 +10,23 @@ class Projects extends React.Component {
         <ul className="projectsContainer">
           <a
             className="atag"
+            href="http://www.sliceit.pizza"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li className="project">
+              <span className="projName">Slice It</span>
+            </li>
+          </a>
+          <a
+            className="atag"
             href="http://www.aura.community"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <li className="project">Project Aura</li>
+            <li className="project">
+              <span className="projName">Project Aura</span>
+            </li>
           </a>
           <a
             className="atag"
@@ -22,7 +34,19 @@ class Projects extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <li className="project">Cryptotracker</li>
+            <li className="project">
+              <span className="projName">Cryptotracker</span>
+            </li>
+          </a>
+          <a
+            className="atag"
+            href="https://github.com/bjameson72"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li className="project">
+              <span className="projName">Check out my Github!</span>
+            </li>
           </a>
         </ul>
       </div>
