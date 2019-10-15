@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+
 .navWrapper {
   background-color: rgba(5, 5, 5, 0.7);
   display: grid;
@@ -20,6 +22,7 @@
 a {
   text-decoration: none;
   outline: none;
+  font-family: "Permanent Marker", cursive;
 }
 
 .logo {
@@ -27,5 +30,5 @@ a {
   color: white;
   font-size: 1.5rem;
   padding-left: 1rem;
-  font-family: "Almarai", sans-serif;
+  font-family: "Permanent Marker", cursive;
 }

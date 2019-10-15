@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../Components/NavBar";
 import "../Styles/Projects.css";
+import slice from "../assets/pictures/Sliceit.png";
 
 class Projects extends React.Component {
   render() {
